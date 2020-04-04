@@ -2,7 +2,6 @@ import { useRouter } from 'next/router';
 import Layout from '../../components/MyLayout';
 const ReactMarkdown = require('react-markdown')
 import React, { Component } from 'react'
-import fetch from 'isomorphic-unfetch';
 import matter from 'gray-matter'
 
 
@@ -19,12 +18,11 @@ const Post = props => {
 
 Post.getInitialProps = async function(context)  {
   const { id } =  context.query
-  const res = await import(`../../blogs/${id}.md`)
+  const res = await import(`../../posts/${id}.md`)
   const post = await res.default
 
   console.log('post', matter(post))
   return { post }
   
 }
-
 export default Post
