@@ -1,16 +1,13 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const linkStyle = {
   marginRight: 15,
-}
+};
 
 const mainHeader = {
   gridRow: 4,
   gridColumn: 1,
-}
-
-
-
+};
 
 export default function Header() {
   return (
@@ -21,20 +18,20 @@ export default function Header() {
       <Link href="/about">
         <a style={linkStyle}>About</a>
       </Link>
+      
       <style jsx>
         {`
-        a {
-          color: white;
-          display: inline-block;
-          transition: transform 0.3s ease-out;
-        }
+          a {
+            color: white;
+            display: inline-block;
+            transition: transform 0.3s ease-out;
+          }
 
-        a:hover { 
-          transform: translate(3px, -5px);
-        }
-
+          a:hover {
+            transform: translate(-3px, -5px);
+          }
         `}
       </style>
     </div>
-  )
+  );
 }
