@@ -4,12 +4,9 @@ const ReactMarkdown = require("react-markdown");
 import React, { Component } from "react";
 import matter from "gray-matter";
 
-const content = {
-  color: "black",
-};
-
 const Post = (props) => {
   const router = useRouter();
+  console.log(router.query)
   return (
     <Layout bg='rgb(246, 247, 248)'>
       <div className="content">
@@ -24,7 +21,6 @@ const Post = (props) => {
           .content {
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
             color: black;
-            grid-row: 1;
             grid-column: 2;
             justify-self: center;
           }

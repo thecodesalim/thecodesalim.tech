@@ -4,7 +4,7 @@ Published:
 
 ## Process
 
-I viewed  Hans Schleger corporate exhibition and graphic designer : papers archive at V&A museum in London. The archive consisted of several posters Hans Schleger has designed for Transport for London during his time in London. Hans Schleger is a prolific Graphic Designer from Germany who was heavily influenced by the Bauhaus Design School (Black, 2012). The archive consisted of posters, advertising, corporate identity and packaging designs. For my project I focused on the posters designed for London Underground.
+I viewed  Hans Schleger corporate exhibition and graphic designer: papers archive at V&A museum in London. The archive consisted of several posters Hans Schleger has designed for Transport for London during his time in London. Hans Schleger is a prolific Graphic Designer from Germany who was heavily influenced by the Bauhaus Design School (Black, 2012). The archive consisted of posters, advertising, corporate identity and packaging designs. For my project I focused on the posters designed for London Underground.
 
 I examined 8 posters commissioned between 1935-1947. The posters have different themes associated with them. In 1935 Schleger was commissioned to produce a pair of posters on the theme ‘The Underground Gets You There’ with the objective of promoting the improving reliability of Underground services (see Fig. 1 & 2). In 1943, commissioned him to produce a poster series urging the public to take more care while travelling during the WWII blackout. 
 

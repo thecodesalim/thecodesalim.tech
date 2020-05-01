@@ -4,7 +4,7 @@ Published:
 
 ## Workshop
 
-HOW ARE YOU DEFINED THROUGH THE BRANDS THAT YOU USE?, was the question asked in the "Brand You" workshop. The workshop is about understanding brands you patronage and asking yourself why you do so. The workshop started by splitting us into groups of 4 and individually listing out all the brands we buy into. And how they define my life as human being and a consumer.
+HOW ARE YOU DEFINED THROUGH THE BRANDS THAT YOU USE? is the question asked in the "Brand You" workshop. The workshop is about understanding brands you patronage and asking yourself why you do so. The workshop started by splitting us into groups of 4 and individually listing out all the brands we buy into. And how they define my life as human being and a consumer.
 
 ### Question
 
