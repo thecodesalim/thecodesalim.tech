@@ -63,7 +63,7 @@ export default function Blog() {
             background-color: #ebecf0;
             display: grid;
             grid-template-rows: 0.5fr 0.5fr 3fr;
-            grid-template-columns: 0.5fr 3fr 0.5fr;
+            grid-template-columns: 1.5fr 2fr 1.5fr;
           }
           .header {
             grid-area: 1/2;

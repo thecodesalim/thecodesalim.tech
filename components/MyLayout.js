@@ -29,7 +29,7 @@ export default function Layout(props) {
               height: 98vh;
               width: 90wh;
               grid-template-rows: 1fr 1fr 1fr 0.1fr;
-              grid-template-columns: 1fr 1fr 1fr;
+              grid-template-columns: 1.5fr 2fr 1.5fr;
               color: white;
             }
           `}
