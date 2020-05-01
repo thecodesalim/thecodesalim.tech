@@ -28,7 +28,7 @@ export default function Layout(props) {
               display: grid;
               height: 98vh;
               width: 98.8vw;
-              grid-template-rows: 1ffr 1fr 1fr;
+              grid-template-rows: 1fr 1fr 1fr;
               grid-template-columns: 1fr 0.8fr 1fr;
               color: white;
             }

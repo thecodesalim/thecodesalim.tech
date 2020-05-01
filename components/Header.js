@@ -23,6 +23,7 @@ export default function Header() {
       <style jsx>
         {`
           a {
+            margin-bottom: 15px;
             color: white;
             display: inline-block;
             transition: transform 0.3s ease-out;
