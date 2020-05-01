@@ -23,33 +23,21 @@ export default function Blog() {
         </p>
         <ul className="blogs">
           <PostLink id="manifesto" title="Manifesto" />
-          <PostLink
-            id="arreview"
-            title="Archive Research: Review"
-          />
+          <PostLink id="arreview" title="Archive Research: Review" />
           <PostLink
             id="arposters"
             title="Archive Research: Posters for London Underground
 "
           />
-          
-          <PostLink
-            id="lchallenge"
-            title="Love Challenge Let's Get Coding"
-          />
+
+          <PostLink id="lchallenge" title="Love Challenge Let's Get Coding" />
           <PostLink id="byms" title="Brand You: M&S Food" />
-          <PostLink
-            id="streetwear"
-            title="Timeline: Journey into Streetwear"
-          />
+          <PostLink id="streetwear" title="Timeline: Journey into Streetwear" />
           <PostLink id="fcreview" title="First Cut: Review" />
           <PostLink id="fcresearch" title="First Cut: Research" />
           <PostLink id="fcchoice" title="First Cut: Idea" />
           <PostLink id="visualstatistics" title="Visual Statistics" />
-          <PostLink
-            id="pedagogy"
-            title="International Pedagogy: How Far?"
-          />
+          <PostLink id="pedagogy" title="International Pedagogy: How Far?" />
         </ul>
       </div>
       <style jsx global>
@@ -60,7 +48,7 @@ export default function Blog() {
           div {
             height: 98vh;
             width: 99vw;
-            background-color: #ebecf0;
+            background-color: rgb(246, 247, 248);
             display: grid;
             grid-template-rows: 0.5fr 0.5fr 3fr;
             grid-template-columns: 1.5fr 2fr 1.5fr;

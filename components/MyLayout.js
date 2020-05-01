@@ -24,7 +24,7 @@ export default function Layout(props) {
               background: ${props.bg};
               margin: 0;
               padding: 0;
-              border: 1px solid #ebecf0;
+              border: 1px solid rgb(246, 247, 248);
               display: grid;
               height: 98vh;
               width: 90wh;

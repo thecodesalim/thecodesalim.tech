@@ -11,7 +11,7 @@ const content = {
 const Post = (props) => {
   const router = useRouter();
   return (
-    <Layout bg='#ebecf0'>
+    <Layout bg='rgb(246, 247, 248)'>
       <div className="content">
   {/*<h1>{router.query.id}</h1>*/}
         <ReactMarkdown source={props.post} />
