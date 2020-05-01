@@ -5,7 +5,7 @@ import Meta from "../components/Meta";
 const PostLink = (props) => (
   <li>
     <h3>
-      <Link href="/p/[id]" as={`/p/${props.id}`}>
+      <Link href="/blog/[id]" as={`/blog/${props.id}`}>
         <a>{props.title}</a>
       </Link>
     </h3>
@@ -24,7 +24,7 @@ export default function Blog() {
         <ul className="blogs">
           <PostLink id="manifesto" title="Manifesto" />
           <PostLink
-            id="Archive Research Review"
+            id="arreview"
             title="Archive Research: Review"
           />
           <PostLink
