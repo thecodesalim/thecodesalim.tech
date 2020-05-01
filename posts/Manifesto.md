@@ -1,4 +1,6 @@
-Published: Jan 14, 2020 
+# Manifesto
+
+Published: 
 
 In this post, I will share my design philosophy and how I wish to approach digital design problems in the future. This is from my experience in this space designing and developing digital products. 
 

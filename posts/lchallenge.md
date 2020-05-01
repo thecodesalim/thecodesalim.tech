@@ -1,5 +1,3 @@
-
----
 # Love Challenge: Let’s Get Coding
 
 Published:

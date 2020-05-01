@@ -22,33 +22,32 @@ export default function Blog() {
           Candid thoughts and ideas around design, innovation and branding
         </p>
         <ul className="blogs">
-          <PostLink id="Manifesto" title="Manifesto" />
+          <PostLink id="manifesto" title="Manifesto" />
           <PostLink
             id="Archive Research Review"
             title="Archive Research: Review"
           />
           <PostLink
-            id="Archive Research Posters for London Underground
-"
+            id="arposters"
             title="Archive Research: Posters for London Underground
 "
           />
           
           <PostLink
-            id="Love Challenge Let s Get Coding"
+            id="lchallenge"
             title="Love Challenge Let's Get Coding"
           />
-          <PostLink id="Brand You M S Food" title="Brand You: M&S Food" />
+          <PostLink id="byms" title="Brand You: M&S Food" />
           <PostLink
-            id="Timeline Journey into Streetwear"
+            id="streetwear"
             title="Timeline: Journey into Streetwear"
           />
-          <PostLink id="FCReview" title="First Cut: Review" />
-          <PostLink id="FCResearch" title="First Cut: Research" />
-          <PostLink id="FCChoice" title="First Cut: Idea" />
-          <PostLink id="Visual Statistics" title="Visual Statistics" />
+          <PostLink id="fcreview" title="First Cut: Review" />
+          <PostLink id="fcresearch" title="First Cut: Research" />
+          <PostLink id="fcchoice" title="First Cut: Idea" />
+          <PostLink id="visualstatistics" title="Visual Statistics" />
           <PostLink
-            id="International Pedagogy How Far?"
+            id="pedagogy"
             title="International Pedagogy: How Far?"
           />
         </ul>

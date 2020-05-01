@@ -1,7 +1,6 @@
 # First Cut: Idea
 
-Created: Nov 09, 2019 4:06 AM
-Status: On Website
+Published:
 
 ## Brief
 
