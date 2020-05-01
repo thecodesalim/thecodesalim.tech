@@ -51,7 +51,7 @@ export default function Blog() {
             background-color: rgb(246, 247, 248);
             display: grid;
             grid-template-rows: 0.5fr 0.5fr 3fr;
-            grid-template-columns: 1.5fr 2fr 1.5fr;
+            grid-template-columns: 1fr 2fr 1fr;
           }
           .header {
             grid-area: 1/2;
