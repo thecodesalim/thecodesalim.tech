@@ -8,7 +8,13 @@ const linkStyle = {
 
 export default function About() {
   return (
-    <Layout>
+    <Layout
+      bg="linear-gradient(
+      90deg,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(252, 70, 107, 1) 100%
+    );"
+    >
       <p className="name">Salim Abubakar</p>
       <p className="me">Software Engineer + Digital Designer</p>
       <div className="links">
@@ -24,13 +30,14 @@ export default function About() {
           .name {
             grid-row: 1;
             grid-column: 1;
+            margin-left: 10px;
           }
 
           .me {
             justify-self: center;
             align-self: center;
             grid-row: 2;
-            grid-column: 3;
+            grid-column: 2;
           }
 
           a {
@@ -45,7 +52,7 @@ export default function About() {
 
           .links {
             justify-self: end;
-            grid-area: 4/5;
+            grid-area: 4/3;
           }
         `}
       </style>

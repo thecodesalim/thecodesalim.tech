@@ -1,28 +1,45 @@
-import { useRouter } from 'next/router';
-import Layout from '../../components/MyLayout';
-const ReactMarkdown = require('react-markdown')
-import React, { Component } from 'react'
-import matter from 'gray-matter'
+import { useRouter } from "next/router";
+import Layout from "../../components/MyLayout";
+const ReactMarkdown = require("react-markdown");
+import React, { Component } from "react";
+import matter from "gray-matter";
 
+const content = {
+  color: "black",
+};
 
-const Post = props => {
+const Post = (props) => {
   const router = useRouter();
   return (
-    <Layout>
-      <h1>{router.query.id}</h1>
-      <p>This is the blog post content.</p>
-      <ReactMarkdown source={props.post} />
+    <Layout bg='#ebecf0'>
+      <div className="content">
+  {/*<h1>{router.query.id}</h1>*/}
+        <ReactMarkdown source={props.post} />
+      </div>
+      <style jsx global>
+        {`
+          .layoutStyle {
+            background-color: #ebecf0;
+          }
+          .content {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            color: black;
+            grid-row: 1;
+            grid-column: 2;
+            justify-self: center;
+          }
+        `}
+      </style>
     </Layout>
   );
-}
+};
 
-Post.getInitialProps = async function(context)  {
-  const { id } =  context.query
-  const res = await import(`../../posts/${id}.md`)
-  const post = await res.default
+Post.getInitialProps = async function (context) {
+  const { id } = context.query;
+  const res = await import(`../../posts/${id}.md`);
+  const post = await res.default;
 
-  console.log('post', matter(post))
-  return { post }
-  
-}
-export default Post
+  console.log("post", matter(post));
+  return { post };
+};
+export default Post;

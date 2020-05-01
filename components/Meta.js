@@ -13,7 +13,7 @@ export default function Meta(props) {
       <style jsx global>
         {`
           html {
-            background: white;
+            background: #ebecf0;
           }
         `}
       </style>

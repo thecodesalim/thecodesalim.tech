@@ -5,6 +5,7 @@ const linkStyle = {
 };
 
 const mainHeader = {
+  marginLeft: 10,
   gridRow: 4,
   gridColumn: 1,
 };

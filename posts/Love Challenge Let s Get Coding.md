@@ -1,10 +1,9 @@
----
-title: Let’s Get Coding
+
 ---
 # Love Challenge: Let’s Get Coding
 
-Created: Jan 14, 2020 3:11 PM
-Status: On Website
+Published:
+
 
 ## Challenge
 

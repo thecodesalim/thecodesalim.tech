@@ -1,27 +1,11 @@
 import Header from "./Header";
 import Meta from "./Meta";
 
-const layoutStyle = {
-  fontFamily: "Futura",
-  background: "rgb(63,94,251)",
-  background:
-    "linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)",
-  margin: 20,
-  padding: 20,
-  border: "1px solid white",
-  display: "grid",
-  height: "90vh",
-  width: "90wh",
-  gridTemplateRows: "1fr 1fr 1fr 0.1fr",
-  gridTemplateColumns: "1fr 1fr 3fr 1fr 1fr",
-  color: "white",
-};
-
 export default function Layout(props) {
   return (
-    <section>
+    <>
       <Meta />
-      <div style={layoutStyle}>
+      <div className="layoutStyle">
         <Header />
         {props.children}
         <style jsx>
@@ -33,9 +17,24 @@ export default function Layout(props) {
             body {
               background: black;
             }
+
+            .layoutStyle {
+              font-family: Futura;
+              
+              background: ${props.bg};
+              margin: 0;
+              padding: 0;
+              border: 1px solid #ebecf0;
+              display: grid;
+              height: 98vh;
+              width: 90wh;
+              grid-template-rows: 1fr 1fr 1fr 0.1fr;
+              grid-template-columns: 1fr 1fr 1fr;
+              color: white;
+            }
           `}
         </style>
       </div>
-    </section>
+    </>
   );
 }
