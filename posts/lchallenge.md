@@ -1,8 +1,5 @@
 # Love Challenge: Let’s Get Coding
 
-Published:
-
-
 ## Challenge
 
 Think about ways that you can ‘spread the love’ in the community by making people happy to spend time helping their neighbours. The task is for the social services division of Epsom and Ewell council, they are trying to save money by getting the community to help each other.

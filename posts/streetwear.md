@@ -1,7 +1,5 @@
 # Timeline: Journey into Streetwear
 
-Published: 
-
 ## Brief
 
 In my Creative Thinking class I was tasked to design, create and present a personal timeline that highlights and evidences my own timeline of movers, shakers, innovators, critical thinkers and influencers. 

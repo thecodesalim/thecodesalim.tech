@@ -1,12 +1,10 @@
-# Manifesto
-
-Published: 
+## Manifesto
 
 In this post, I will share my design philosophy and how I wish to approach digital design problems in the future. This is from my experience in this space designing and developing digital products. 
 
 In my Software Engineering undergraduate degree filled mathematics and technical courses, I took a class called Development for Usability. The class was about learning the principles of usability and prototyping of digital products. Usability is part of the broader term “user experience” and refers to the ease of access and/or use of a product or website. I'm lucky to have taken the class because I was encouraged to approach problems with a creative mindset.
 
-## Design Principles
+### Design Principles
 
 These are the design principles I belive in and follow
 
@@ -36,7 +34,7 @@ These are the design principles I belive in and follow
 
     Solve problems that inspire you, find challenges you want to beat. 
 
-## Exhibition
+### Exhibition
 
 I wanted to design a digital exhibition that can be experienced through screens. Thankfully I have been reading up and experimenting with generative art. "Generative art is art made using a predetermined system that often includes an element of chance (Tate, n.d.)."  The exhibition is to display art through screen. And simulate the feeling of being in a physical art exhibition by showing them in frames.
 
@@ -44,7 +42,7 @@ Using the power of randomness I built a program to generate primitive shapes wit
 
 This exhibition is to show people computers can create art and it is exciting and fascinating to see what  it creates because it is unpredictable and not predefined. This opens door to what and how people think about art. My exhibition is tiny piece of what can be done in this space. 
 
-References
+### References
 
 1. Tate. (n.d.). Generative art – Art Term | Tate. [online] Available at: [https://www.tate.org.uk/art/art-terms/g/generative-art](https://www.tate.org.uk/art/art-terms/g/generative-art) [Accessed 10 Jan. 2020].
 2. The Interaction Design Foundation. (n.d.). What is Usability?. [online] Available at: [https://www.interaction-design.org/literature/topics/usability](https://www.interaction-design.org/literature/topics/usability) [Accessed 10 Jan. 2020].

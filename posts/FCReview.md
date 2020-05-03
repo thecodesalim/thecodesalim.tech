@@ -1,8 +1,5 @@
 # First Cut: Review
 
-Published: 
-
-
 ## Working in a Group
 
 The goal of working in a group is to increase performance and productivity by planning and problem solving while collectively working together.

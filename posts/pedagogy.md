@@ -1,8 +1,5 @@
 # International Pedagogy: How Far?
 
-Published:
-
-
 ## Brief
 
 International Pedagogy was the first challenge I was given in my Research and Communication class. The challenge is to edit and present to members of our new cohort with simple phrases and/or actions and information to teach them about what "you" think they need to know about where you are from. The presentation should not be seen from a tourist perspective but a personal perspective. 

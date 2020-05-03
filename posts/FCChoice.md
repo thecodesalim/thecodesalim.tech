@@ -1,7 +1,5 @@
 # First Cut: Idea
 
-Published:
-
 ## Brief
 
 A brief was given in my Research and Communication class at University to work in a group titled "First Cut" of visiting a design event in London researched and negotiated before attending. This was the first assignment given to be us to be done as a group. 

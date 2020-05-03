@@ -27,9 +27,8 @@ export default function Layout(props) {
               border: 1px solid rgb(246, 247, 248);
               display: grid;
               height: 98vh;
-              width: 98.8vw;
               grid-template-rows: 1fr 1fr 1fr;
-              grid-template-columns: 1fr 0.8fr 1fr;
+              grid-template-columns: 1fr 1fr 1fr;
               color: white;
             }
           `}

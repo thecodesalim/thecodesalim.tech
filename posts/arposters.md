@@ -1,8 +1,6 @@
-# Archive Research: Posters for London Underground
+## Archive Research: Posters for London Underground
 
-Published:
-
-## Process
+### Process
 
 I viewed  Hans Schleger corporate exhibition and graphic designer: papers archive at V&A museum in London. The archive consisted of several posters Hans Schleger has designed for Transport for London during his time in London. Hans Schleger is a prolific Graphic Designer from Germany who was heavily influenced by the Bauhaus Design School (Black, 2012). The archive consisted of posters, advertising, corporate identity and packaging designs. For my project I focused on the posters designed for London Underground.
 
@@ -208,7 +206,7 @@ Fig. 7 Central Line Eastern Extension
 
     Inform people about the new routes opening on Central Line
 
-## Findings & Thoughts
+### Findings & Thoughts
 
 Comparing these posters to contemporary light you can see the form posters take now has changed drastically(see Fig. 8). There is no more art involved in poster design. I think the major cause of the shift in poster design for London Underground is the advancement in technology. It is now possible to print high-quality posters with pictures. And now advertisement screens allow the rotation of poster ads per screen.
 
@@ -222,23 +220,23 @@ I noticed a pattern all the posters had a red colour on them. I decided to find 
 
 The collection of posters designed for London Underground is one pit stop to discover Graphic Design trend without any gaps.
 
-## Further Study
+### Further Study
 
 The brief for this project stated the final outcome for the brief is finding a way to yield a useful study to take archive research brief further.  Being a software engineer with interest into digital design and I had an idea/thought on how to carry this further as a study. The ideas is to create a Information Visualisation of all the posters designed from the first commissioned poster till date for London Underground. Information Visualisation, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus make it useful in our lives (The Interaction Design Foundation, 2019).
 
 The idea came from the fact London Underground has a cult following. The followers are really into anything London Underground. The Information Visualisation is not only for fans of London Underground but also for people into design to see the growth in how poster design has evolved, changed and shaped the world we live now. And I want people to see what I have seen because it is amazing work. It will also be a place of preserving art for the next generation and more. Using Information Visualisation an experience can be designed with these posters. The visualisation will allow people to explore and see the change, progress, design influence, message, typography and journey of posters in London Underground. 
 
-## Presentation
+### Presentation
 
 I edited my presentation in a way to tell a narrative. The narrative starts from how I stumbled on this archive, my process, findings, thoughts and how to take this archive research brief further.
 
 You can find it here.
 
-## Conclusion
+### Conclusion
 
 This archive research brief introduced me to something different. I have never been to an archive nor recorded my observations and thoughts through content analysis. The most important thing I learned is the process of uncovering the interesting bits of the posters and shedding light on it.   
 
-## References
+### References
 
 1. Black, J. (2012). For the People's Good: Hans Schleger (1898–1976), Poster Design and British National Identity, 1935–60. Visual Culture in Britain, 13(2), pp.169-190.
 2. Lippert, A. (2017). What is a poster? | Poster House. [online] Poster House. Available at: [https://posterhouse.org/what-is-a-poster/](https://posterhouse.org/what-is-a-poster/) [Accessed 5 Dec. 2019].

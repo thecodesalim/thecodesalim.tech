@@ -1,7 +1,5 @@
 # First Cut: Research
 
-Published:
-
 ## Brief
 
 You are required to record and present your group impressions of a London Event visit (researched and negotiated prior to attendance. Design and design related events can be found in abundance in London and surrounding areas. After careful negotiation, discussion and agreed consensus, you will edit and assemble a 10-minute presentation.

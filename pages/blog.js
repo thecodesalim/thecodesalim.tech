@@ -46,12 +46,12 @@ export default function Blog() {
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
           }
           div {
-            height: 98vh;
-            width: 99vw;
+            height: 90vh;
+            width: 95vw;
             background-color: rgb(246, 247, 248);
             display: grid;
-            grid-template-rows: 0.5fr 0.5fr 3fr;
-            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
           }
           .header {
             grid-area: 1/2;

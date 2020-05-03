@@ -1,7 +1,5 @@
 # Archive Research: Review
 
-Published:
-
 ## Description
 
 I received an underwhelming response for my presentation on the archive brief. Which you can find here. I decided to find the cause and learn from it.

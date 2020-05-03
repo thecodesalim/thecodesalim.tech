@@ -1,7 +1,5 @@
 # Visual Statistics
 
-Published:
-
 ## Challenge
 
 Your challenge is to analyse, present and conclude a range and/or sample of information based on the data collated.
