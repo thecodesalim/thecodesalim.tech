@@ -6,11 +6,11 @@ import matter from "gray-matter";
 
 const Post = (props) => {
   const router = useRouter();
-  console.log(router.query)
+  console.log(router.query);
   return (
-    <Layout bg='rgb(246, 247, 248)'>
+    <Layout bg="rgb(246, 247, 248)">
       <div className="content">
-  {/*<h1>{router.query.id}</h1>*/}
+        {/*<h1>{router.query.id}</h1>*/}
         <ReactMarkdown source={props.post.content} />
       </div>
       <style jsx global>
@@ -30,10 +30,11 @@ const Post = (props) => {
   );
 };
 
-Post.getInitialProps = async function (context) {
+export async function getStaticProps(context) {
   const { id } = context.query;
   const res = await import(`../../posts/${id}.md`);
   const post = await matter(res.default);
   return { post };
-};
+}
+
 export default Post;
