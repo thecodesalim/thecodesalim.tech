@@ -1,6 +1,7 @@
 import Layout from "../components/MyLayout";
 import Link from "next/link";
 import Meta from "../components/Meta";
+//const files = require('files')
 
 const PostLink = (props) => (
   <li>

@@ -11,7 +11,7 @@ const Post = (props) => {
     <Layout bg="rgb(246, 247, 248)">
       <div className="content">
         {/*<h1>{router.query.id}</h1>*/}
-        <ReactMarkdown source={props.post.content} />
+        <ReactMarkdown source={props.post} />
       </div>
       <style jsx global>
         {`
@@ -30,11 +30,13 @@ const Post = (props) => {
   );
 };
 
-export async function getStaticProps(context) {
-  const { id } = context.query;
+Post.getInitialProps = async (ctx) => {
+  const { id } = ctx.query;
   const res = await import(`../../posts/${id}.md`);
-  const post = await matter(res.default);
+  const post = await res.default;
+
+  console.log("post", matter(post));
   return { post };
-}
+};
 
 export default Post;

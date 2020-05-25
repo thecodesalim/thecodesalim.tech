@@ -16,7 +16,7 @@ export default function About() {
     );"
     >
       <p className="name">Salim Abubakar</p>
-      <p className="me">Software Engineer + Digital Designer</p>
+      <p className="me">Design & Programming</p>
       <div className="links">
         <a style={linkStyle} href="https://github.com/thecodesalim">
           Github
