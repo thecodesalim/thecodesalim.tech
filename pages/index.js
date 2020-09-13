@@ -15,16 +15,7 @@ export default function About() {
       rgba(252, 70, 107, 1) 100%
     );"
     >
-      <p className="name">Salim Abubakar</p>
-      <p className="me">Design & Programming</p>
-      <div className="links">
-        <a style={linkStyle} href="https://github.com/thecodesalim">
-          Github
-        </a>
-        <a style={linkStyle} href="https://twitter.com/TheCodeSalim">
-          Twitter
-        </a>
-      </div>
+      <p className="me">I am rebuilding my webiste for the 30,000th time</p>
       <style jsx>
         {`
           .name {
@@ -38,6 +29,7 @@ export default function About() {
             align-self: center;
             grid-row: 2;
             grid-column: 2;
+            font-size: 50px;
           }
 
           a {
