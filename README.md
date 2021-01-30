@@ -1,10 +1,11 @@
-[thecodesalim.tech](https://thecodesalim.tech/).
+[thecodesalim.tech](https://salim.code/).
 
-This is the source for my personal website and blog thecodesalim.tech. 
+This is the source for my personal website and blog salim.code 
 
 ###### Tech Stack
 
 - React
 - Next.js
 - react-markdown 
+- Framer Motion
 
