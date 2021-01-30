@@ -1,4 +1,4 @@
-[thecodesalim.tech](https://salim.code/).
+[salim.code](https://salim.code/).
 
 This is the source for my personal website and blog salim.code 
 
