@@ -10,7 +10,7 @@ export default function Layout(props) {
         {props.children}
         <style jsx>
           {`
-            @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
             :root {
               background: black;
             }
@@ -19,7 +19,7 @@ export default function Layout(props) {
             }
 
             .layoutStyle {
-              font-family: Futura;
+              font-family: 'Inter', sans-serif;
               
               background: ${props.bg};
               margin: 0;

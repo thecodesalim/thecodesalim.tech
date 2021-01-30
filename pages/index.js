@@ -8,31 +8,65 @@ const linkStyle = {
 
 export default function About() {
   return (
-    <Layout
-      bg="linear-gradient(
-      90deg,
-      rgba(63, 94, 251, 1) 0%,
-      rgba(252, 70, 107, 1) 100%
-    );"
-    >
-      <p className="me">I am rebuilding my webiste for the 30,000th time</p>
+    <Layout bg="#000000">
+      <div className="mainPart">
+        <div className="shape"></div>
+        <span className="name">Salim Abubakar</span>
+      </div>
+      <div className="bio">
+        <ul>
+          <Box text="Software Engineer & Designer" />
+          <Box text="Keen in designing & building functional UIs" />
+        </ul>
+      </div>
+
+      <div className="link">
+        <ul>
+        <Link href='https://twitter.com/TheCodeSalim' passHref><a><Box text="Github" /></a></Link>
+        <Link href='https://twitter.com/TheCodeSalim' passHref><a><Box text="Twitter" /></a></Link>
+        </ul>
+      </div>
+
       <style jsx>
         {`
-          .name {
+          .mainPart {
+            margin: 20px;
             grid-row: 1;
             grid-column: 1;
-            margin-left: 10px;
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+          }
+          .shape {
+            height: 50px;
+            width: 50px;
+            background-color: #ffff;
+            position: absolute;
+            top: 60px;
+            left: 140px;
           }
 
-          .me {
-            justify-self: center;
-            align-self: center;
+          .name {
+            position: absolute;
+            top: 80px;
+            left: 200px;
+          }
+          .bio {
+            grid-row: 2;
+            grid-column: 1;
+          }
+
+          ul {
+            list-style-type: none;
+          }
+
+          .link {
             grid-row: 2;
             grid-column: 2;
-            font-size: 50px;
           }
 
           a {
+            text-decoration: none;
             color: white;
             display: inline-block;
             transition: transform 0.3s ease-out;

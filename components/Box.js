@@ -1,14 +1,18 @@
-export default function Box() {
+export default function Box(props) {
   return (
     <>
-      <div className="box"></div>
+          <li>{props.text}</li>
+          <div className="line"></div>
       <style jsx>
         {`
-          .box {
-            height: 30vh;
-            width: 30vw;
-            background: yellow;
+          .line {
+            width: 320px;
+            height: 1px;
+            background: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
           }
+
         `}
       </style>
     </>
