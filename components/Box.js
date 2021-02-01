@@ -6,7 +6,7 @@ export default function Box(props) {
       <style jsx>
         {`
           .line {
-            width: 320px;
+            width: ${props.width}px;
             height: 1px;
             background: white;
             margin-top: 10px;

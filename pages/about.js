@@ -27,11 +27,6 @@ export default function About() {
           a:hover {
             transform: translate(3px, -5px);
           }
-
-          .links {
-            justify-self: end;
-            grid-area: 4/3;
-          }
         `}
       </style>
     </Layout>

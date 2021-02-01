@@ -10,10 +10,10 @@ export default function Meta(props) {
         <title>the code salim</title>
       </Head>
 
-      <style jsx global>
+      <style>
         {`
           html {
-            background: rgb(246, 247, 248);
+            background: #ffff;
           }
         `}
       </style>
