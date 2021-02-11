@@ -3,10 +3,6 @@ import Layout from "../components/MyLayout.js";
 import Box from "../components/Box";
 import { motion } from "framer-motion";
 
-const linkStyle = {
-  marginRight: 15,
-};
-
 export default function About() {
   return (
     <Layout bg="#000000">
@@ -31,30 +27,22 @@ export default function About() {
       </div>
 
       <div className="bio">
-        <ul>
           <Box text="Software Engineer & Designer" width={300} />
           <Box text="Keen in designing & building functional UIs" width={300} />
-        </ul>
       </div>
 
       <div className="link">
-        <ul>
-          <Box className="linkHeader" text="Links" width={0}/>
-          <li>
-            <Link href="https://twitter.com/TheCodeSalim">
-              <a>
-                <Box text="Github" />
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://twitter.com/TheCodeSalim">
-              <a>
-                <Box text="Twitter" />
-              </a>
-            </Link>
-          </li>
-        </ul>
+        <Box className="linkHeader" text="Links" width={0} />
+        <Link href="https://twitter.com/TheCodeSalim">
+          <a>
+            <Box text="Github" width={10} />
+          </a>
+        </Link>
+        <Link href="https://twitter.com/TheCodeSalim">
+          <a>
+            <Box text="Twitter" width={10} />
+          </a>
+        </Link>
       </div>
 
       <style>
@@ -62,8 +50,7 @@ export default function About() {
           .mainPart {
             margin: 20px;
             grid-row: 2;
-            grid-column: ;
-            justify-items: center;
+            
             display: grid;
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr 1fr;
@@ -72,19 +59,23 @@ export default function About() {
             font-style: italic;
           }
           .shape {
-            width: 0;
-            height: 0;
-            border-left: 25px solid transparent;
-            border-right: 25px solid transparent;
-            border-bottom: 50px solid #ffff;
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            background-color: rgb(246, 247, 248);
+            margin: 10px;
           }
 
           .name {
             grid-row: 2;
+            margin: 10px;
           }
+
           .bio {
+            margin: 20px;
             grid-row: 3;
-            grid-column: ;
+
+            display: grid;
           }
 
           ul {
@@ -92,9 +83,10 @@ export default function About() {
           }
 
           .link {
-            grid-row: 3;
-            position: relative;
-            grid-column: ;
+            margin: 20px;
+
+            display: grid;
+            grid-row: 4;
           }
 
           a {
@@ -111,6 +103,18 @@ export default function About() {
           .links {
             justify-self: end;
             grid-area: 4;
+          }
+
+          @media screen and (max-width: 600px) {
+            body {
+              background-color: olive;
+            }
+
+            .link {
+              grid-row: 4;
+              grid-column: 1;
+            }
+
           }
         `}
       </style>

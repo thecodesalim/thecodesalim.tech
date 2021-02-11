@@ -6,7 +6,12 @@ export default function About() {
       <div className='fullBio'>
       <span>I'm a graduate Software Engineer particularly interested 
         in working with Javascript(React, React Native, Nodejs, Svelte) 
-        and designing(UI/UX) functional and beautiful interfaces. Years experience working with Java, Python, HTML, CSS and Adobe XD.
+       </span>
+        <span>
+        and designing(UI/UX) functional and beautiful interfaces. 
+        Years experience working with Java, Python, HTML, CSS and Adobe XD.
+        </span>
+       <span>
         I am an individual with great problem-solving and team-working skills. 
         In my free time I prototype and develop video games using Unity.
         </span>
@@ -15,7 +20,6 @@ export default function About() {
         {`
         .fullBio {
           padding: 20px;
-          grid-column: 1/3;
           grid-row: 2;
         }
           a {

@@ -1,7 +1,7 @@
 export default function Box(props) {
   return (
     <>
-          <li>{props.text}</li>
+          <span>{props.text}</span>
           <div className="line"></div>
       <style jsx>
         {`

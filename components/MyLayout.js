@@ -24,13 +24,13 @@ export default function Layout(props) {
           },
         }}
       >
-        <Header />
         {props.children}
+        <Header />
         <style>
           {`
            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
             :root {
-              background: #ffff;
+              background-color: rgb(246, 247, 248);
             }
             body {
               background: black;
@@ -41,10 +41,9 @@ export default function Layout(props) {
               background: ${props.bg};
               margin: 0;
               padding: 0;
-              border: 1px solid orangered;
               display: grid;
               height: 97.5vh;
-              grid-template-rows: 1fr 1fr 1fr 1fr; 
+              grid-template-rows: 0.5fr 1fr 1fr 1fr; 
               color: white;
             }
           `}
