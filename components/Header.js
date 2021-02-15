@@ -5,9 +5,9 @@ const linkStyle = {
 };
 
 const mainHeader = {
+  gridColumn: 1 / 3,
   marginLeft: 10,
-  gridRow: 4,
-  gridColumn: 1,
+  gridRow: 5,
 };
 
 export default function Header() {
@@ -19,9 +19,14 @@ export default function Header() {
       <Link href="/about">
         <a style={linkStyle}>About</a>
       </Link>
-      
+
       <style jsx>
         {`
+          .mainHeader {
+            marginLeft: 10,
+            grid-row: 5,
+            grid-column: 1 / 3,
+          }
           a {
             margin-bottom: 15px;
             color: white;

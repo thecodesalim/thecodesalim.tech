@@ -49,7 +49,6 @@ export default function Blog() {
           div {
             height: 90vh;
             width: 95vw;
-            background-color: rgb(246, 247, 248);
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
             grid-template-columns: 1fr 1fr 1fr;

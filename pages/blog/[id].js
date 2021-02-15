@@ -19,9 +19,10 @@ const Post = (props) => {
             background-color: #ebecf0;
           }
           .content {
+            padding: 20px;
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
             color: black;
-            grid-column: 2;
+            grid-column: 3/9;
             justify-self: center;
           }
         `}
