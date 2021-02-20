@@ -28,12 +28,13 @@ export default function Layout(props) {
         <Header />
         <style>
           {`
-           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
             :root {
               background-color: rgb(246, 247, 248);
             }
             body {
               background: black;
+              font-weight: 300;
             }
             .layoutStyle {
               font-family: 'Inter', sans-serif;
@@ -42,7 +43,7 @@ export default function Layout(props) {
               margin: 0;
               padding: 0;
               display: grid;
-              height: 97.5vh;
+              height: 98vh;
               grid-template-rows: 0.5fr 1fr 1fr 1fr; 
               color: white;
             }

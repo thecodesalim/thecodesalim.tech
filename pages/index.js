@@ -66,6 +66,7 @@ export default function About() {
           }
 
           .name {
+            font-weight: 400;
             grid-row: 2;
             margin: 10px;
           }
