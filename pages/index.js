@@ -32,8 +32,7 @@ export default function About() {
       </div>
 
       <div className="link">
-        <Box className="linkHeader" text="Links" width={0} />
-        <Link href="https://twitter.com/TheCodeSalim">
+        <Link href="https://github.com/thecodesalim">
           <a>
             <Box text="Github" width={10} />
           </a>
@@ -67,6 +66,7 @@ export default function About() {
           }
 
           .name {
+            font-weight: 400;
             grid-row: 2;
             margin: 10px;
           }
@@ -84,12 +84,12 @@ export default function About() {
 
           .link {
             margin: 20px;
-
-            display: grid;
+            justify-content: space-around;
             grid-row: 4;
           }
 
           a {
+            margin-left: 20px;
             text-decoration: none;
             color: white;
             display: inline-block;
