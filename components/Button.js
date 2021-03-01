@@ -11,7 +11,7 @@ export default function Button(props) {
     if (isOpen) {
       textContent.current.textContent = "about";
     } else {
-      textContent.current.textContent += "fuck";
+      textContent.current.textContent = " ";
     }
   };
   const variants = {
