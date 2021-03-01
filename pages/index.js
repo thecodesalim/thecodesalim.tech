@@ -65,6 +65,10 @@ export default function About() {
             margin: 10px;
           }
 
+          .shape:hover {
+            cursor: pointer;
+          }
+
           .name {
             font-weight: 400;
             grid-row: 2;

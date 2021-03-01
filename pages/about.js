@@ -1,9 +1,11 @@
-import Layout from "../components/MyLayout.js";
 import React from "react";
 import { motion } from "framer-motion";
+import Layout from "../components/MyLayout.js";
+import Button from "../components/Button"
+
 
 export default function About() {
-  const [popUp, setPopUp] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false)
 
   const variants = {
     open: { scale: 1 },
@@ -11,14 +13,13 @@ export default function About() {
   };
 
   const triggerPop = () => {
-    setPopUp(!popUp);
-    console.log(css);
+    setIsOpen(!isOpen);
   };
-  let css = popUp ? "block" : "none";
+  let css = isOpen ? "block" : "none";
   return (
     <Layout bg="#000000">
       <div>
-        <button onClick={triggerPop}>About</button>
+        <Button/>
       </div>
 
       <motion.div
@@ -30,7 +31,7 @@ export default function About() {
           bottom: 300,
         }}
         variants={variants}
-        animate={popUp ? "open" : "closed"}
+        animate={isOpen ? "open" : "closed"}
       >
         <div className="popUp">
           <div className="fullBio">
@@ -57,13 +58,6 @@ export default function About() {
             grid-row: 3;
           }
 
-          .shape {
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            background-color: orangered;
-            margin: 10px;
-          }
           a {
             color: white;
             display: inline-block;
@@ -81,8 +75,8 @@ export default function About() {
             position: absolute;
             z-index: 3;
             border-radius: 5%;
-            width: 500px;
-            height: 500px;
+            width: 320px;
+            height: 300px;
           }
         `}
       </style>
