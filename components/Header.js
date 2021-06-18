@@ -23,7 +23,7 @@ export default function Header() {
       <style jsx>
         {`
           .mainHeader {
-            marginLeft: 10,
+            marginLeft: 20,
             grid-row: 5,
             grid-column: 1 / 3,
           }

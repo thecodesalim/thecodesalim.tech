@@ -1,85 +1,74 @@
 import Link from "next/link";
 import Layout from "../components/MyLayout.js";
 import Box from "../components/Box";
+import Header from "../components/Header";
+import Button from "../components/Button";
 import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <Layout bg="#000000">
+    <Layout bg="#111111">
       <div className="mainPart">
-        <motion.div
-          className="shape"
-          drag
-          dragConstraints={{
-            top: -50,
-            left: -50,
-            right: 50,
-            bottom: 50,
-          }}
-          animate={{
-            scale: [1, 1.5, 1, 1.5, 1],
-            transition: {
-              delay: 0.8,
-            },
-          }}
-        ></motion.div>
         <span className="name">Salim Abubakar</span>
       </div>
 
       <div className="bio">
-          <Box text="Software Engineer & Designer" width={300} />
-          <Box text="Keen in designing & building functional UIs" width={300} />
+        <Box text="Software Engineer & Designer" width={20} />
+        <Box text="Keen in designing & building functional UIs" width={20} />
       </div>
 
       <div className="link">
         <Link href="https://github.com/thecodesalim">
           <a>
-            <Box text="Github" width={10} />
+            <motion.div
+              whileHover={{ scale: 1.1, x: -20 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Box text="Github" width={10} />
+            </motion.div>
           </a>
         </Link>
+
         <Link href="https://twitter.com/TheCodeSalim">
           <a>
-            <Box text="Twitter" width={10} />
+            <motion.div
+              whileHover={{ scale: 1.1, x: 20 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Box text="Twitter" width={10} />
+            </motion.div>
           </a>
         </Link>
       </div>
-
+      {/* <Header /> */}
+      <div className="open-viewer">
+        <Button />
+      </div>
       <style>
         {`
+          .open-viewer{
+            grid-row: 1; 
+          }
           .mainPart {
-            margin: 20px;
-            grid-row: 2;
-            
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction:  row;
+            align-items: flex-end;
+            grid-row: 2;      
           }
           .linkHeader {
             font-style: italic;
-          }
-          .shape {
-            height: 4rem;
-            width: 4rem;
-            border-radius: 50%;
-            background-color: rgb(246, 247, 248);
-            margin: 10px;
-          }
-
-          .shape:hover {
-            cursor: pointer;
           }
 
           .name {
             font-weight: 400;
             grid-row: 2;
             margin: 10px;
+            margin-left: 20px;
           }
 
           .bio {
             margin: 20px;
             grid-row: 3;
-
-            display: grid;
           }
 
           ul {
@@ -88,7 +77,6 @@ export default function About() {
 
           .link {
             margin: 20px;
-            justify-content: space-around;
             grid-row: 4;
           }
 
@@ -101,11 +89,10 @@ export default function About() {
           }
 
           a:hover {
-            transform: translate(3px, -5px);
+            // transform: translate(3px, -5px);
           }
 
           .links {
-            justify-self: end;
             grid-area: 4;
           }
 

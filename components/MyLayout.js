@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Meta from "./Meta";
+
 import { motion } from "framer-motion";
 
 export default function Layout(props) {
@@ -30,7 +31,7 @@ export default function Layout(props) {
           {`
            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
             :root {
-              background-color: rgb(246, 247, 248);
+              background-color: #111111;
             }
             body {
               background: black;
@@ -45,7 +46,7 @@ export default function Layout(props) {
               display: grid;
               height: 98vh;
               grid-template-rows: 0.5fr 1fr 1fr 1fr; 
-              color: white;
+              color: #D3D3D3;
             }
           `}
         </style>

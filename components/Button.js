@@ -10,15 +10,19 @@ export default function Button(props) {
     setIsOpen(!isOpen);
     if (isOpen) {
       textContent.current.textContent = "about";
+      console.log(textContent);
     } else {
-      textContent.current.textContent = " ";
+      textContent.current.textContent = ` I'm a graduate Software Engineer particularly interested in
+      working with Javascript(React, React Native, Nodejs, Svelte)`;
     }
   };
   const variants = {
-    close: { width: "10%" },
+    close: { width: "20%" },
     open: {
-      width: "30%",
-      height: "30%",
+      x: 0,
+      y: 0,
+      width: "50%",
+      height: "50%",
       transition: {
         delay: 0.0,
       },
@@ -39,18 +43,19 @@ export default function Button(props) {
         {`
               .button {
                 height: 50px;
-                margin: 5px;
-                border-radius: 50px;
+                border-radius: 2px;
                 background-color: rgba(245, 245, 245, 0.98);
                 color: #757575;
                 z-index: 2;
                 position: absolute;
+                display: flex;
+                flex-direction:  row;
+                justify-content: center;
+                align-items: center;
               }
 
               .buttonText {
-                display: grid;
-                justify-content: center;
-                align-content: center;
+                padding: 10px;
               }
 
 

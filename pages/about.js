@@ -1,11 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Layout from "../components/MyLayout.js";
-import Button from "../components/Button"
-
+import Button from "../components/Button";
 
 export default function About() {
-  const [isOpen, setIsOpen] = React.useState(false)
+  const [isOpen, setIsOpen] = React.useState(false);
 
   const variants = {
     open: { scale: 1 },
@@ -19,8 +18,9 @@ export default function About() {
   return (
     <Layout bg="#000000">
       <div>
-        <Button/>
+        <Button />
       </div>
+      <button onClick={() => triggerPop()} title="click" />
 
       <motion.div
         drag
@@ -43,11 +43,15 @@ export default function About() {
               and designing(UI/UX) functional and beautiful interfaces. Years
               experience working with Java, Python, HTML, CSS and Adobe XD.
             </span>
+            <br />
+            <br />
             <span>
               I am an individual with great problem-solving and team-working
               skills. In my free time I prototype and develop video games using
               Unity.
             </span>
+            <br />
+            <br />
           </div>
         </div>
       </motion.div>
