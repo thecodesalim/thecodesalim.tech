@@ -13,19 +13,17 @@ export default function Button(props) {
   const triggerOpen = () => {
     setIsOpen(!isOpen);
     if (isOpen) {
-      textContent.current.textContent = "about";
-      console.log(textContent);
+      textContent.current.textContent = props.text;
     } else {
-      textContent.current.textContent = ` I'm a graduate Software Engineer particularly interested in
-      working with Javascript(React, React Native, Nodejs, Svelte)`;
+      textContent.current.textContent = props.value;
     }
   };
   const variants = {
-    close: { width: "20%" },
+    close: { width: "10%" },
     open: {
-      x: 40,
-      y: -200,
-      width: "50%",
+      x: 0,
+      y: -40,
+      width: "35%",
       height: "50%",
       transition: {
         delay: 0.0,
@@ -40,7 +38,7 @@ export default function Button(props) {
       onClick={triggerOpen}
     >
       <span className="buttonText" ref={textContent}>
-        about
+        {props.text}
       </span>
 
       <style>
@@ -48,20 +46,27 @@ export default function Button(props) {
               .button {
                 height: 50px;
                 border-radius: 2px;
-                background-color: #000;
-                color: #757575;
-                z-index: 2;
-                position: absolute;
+                color: #e1ad01;
+                z-index: 2;  
                 display: flex;
-                flex-direction:  row;
-                justify-content: center;
-                align-items: center;
+                flex-direction: row;
+                margin-right: 0%;
+              }
+
+              .button:hover {
+                cursor: pointer;
+              }
+
+
+              @media screen and (max-width: 600px) {
+                .button {
+                  margin-right: 10%;
+                }
               }
 
               .buttonText {
                 padding: 10px;
               }
-
 
             `}
       </style>

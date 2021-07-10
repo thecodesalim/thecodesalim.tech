@@ -27,8 +27,7 @@ export default function Blog() {
           <PostLink id="arreview" title="Archive Research: Review" />
           <PostLink
             id="arposters"
-            title="Archive Research: Posters for London Underground
-"
+            title="Archive Research: Posters for London Underground"
           />
 
           <PostLink id="lchallenge" title="Love Challenge Let's Get Coding" />
@@ -44,7 +43,7 @@ export default function Blog() {
       <style jsx global>
         {`
           html {
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: "Inter", sans-serif;
           }
           div {
             height: 90vh;
@@ -71,15 +70,15 @@ export default function Blog() {
             margin: 0 0 30px 0;
           }
           a:visited {
-            color: 0c00ff;
+            color: #e1ad01;
           }
 
           a:hover {
-            background: #d9d9d9;
+            background: #000000;
           }
 
           a {
-            color: #0c00ff;
+            color: #e1ad01;
           }
         `}
       </style>

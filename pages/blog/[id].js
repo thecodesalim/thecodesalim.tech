@@ -8,7 +8,7 @@ const Post = (props) => {
   const router = useRouter();
   console.log(router.query);
   return (
-    <Layout bg="rgb(246, 247, 248)">
+    <Layout bg="#111111">
       <div className="content">
         {/*<h1>{router.query.id}</h1>*/}
         <ReactMarkdown source={props.post} />
@@ -20,9 +20,9 @@ const Post = (props) => {
           }
           .content {
             padding: 20px;
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-            color: black;
-            grid-column: 3/9;
+            font-family: "Inter", sans-serif;
+            color: D3D3D3;
+            grid-column: 2/4;
             justify-self: center;
           }
         `}

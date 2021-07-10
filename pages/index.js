@@ -11,10 +11,9 @@ export default function About() {
       <div className="mainPart">
         <span className="name">Salim Abubakar</span>
       </div>
-
       <div className="bio">
-        <Box text="Software Engineer & Product Designer" width={20} />
-        <Box text="Keen in designing & building functional UIs" width={20} />
+        <Box text="Software Engineer & Product Designer" width={20.5} />
+        <Box text="Keen in designing & building functional UIs" width={23} />
       </div>
 
       {/* <div className="link">
@@ -42,12 +41,45 @@ export default function About() {
       </div> */}
       {/* <Header /> */}
       <div className="open-viewer">
-        <Button />
+        <Button
+          align="flex-end"
+          text="about"
+          value="I'm a graduate Software Engineer particularly interested in
+working with Javascript(React, React Native, Nodejs, Svelte)"
+        />
+        <Button
+          align="flex-end"
+          text="portfolio"
+          value="I'm a graduate Software Engineer particularly interested in
+working with Javascript(React, React Native, Nodejs, Svelte)"
+        />
+        <Button
+          align="flex-end"
+          text="twitter"
+          value="I'm a graduate Software Engineer particularly interested in
+working with Javascript(React, React Native, Nodejs, Svelte)"
+        />
+        <Button
+          align="flex-end"
+          text="github"
+          value="I'm a graduate Software Engineer particularly interested in
+working with Javascript(React, React Native, Nodejs, Svelte)"
+        />
       </div>
+
       <style>
         {`
+
+        .left {
+          display: flex;
+          align-self: flex-end
+        }
           .open-viewer{
             grid-row: 4; 
+            display: flex;
+            flex-direction: row;
+            grid-column: 1/5;
+            margin: 20px;
           }
           .mainPart {
             display: flex;
@@ -69,6 +101,7 @@ export default function About() {
           .bio {
             margin: 20px;
             grid-row: 3;
+            grid-column: 1/6;
           }
 
           ul {
