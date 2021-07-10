@@ -5,7 +5,11 @@ export default function Button(props) {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const textContent = React.useRef();
-
+  React.useEffect(() => {
+    document.addEventListener("click", () => {
+      console.log("yeah");
+    });
+  });
   const triggerOpen = () => {
     setIsOpen(!isOpen);
     if (isOpen) {
@@ -19,8 +23,8 @@ export default function Button(props) {
   const variants = {
     close: { width: "20%" },
     open: {
-      x: 0,
-      y: 0,
+      x: 40,
+      y: -200,
       width: "50%",
       height: "50%",
       transition: {
@@ -44,7 +48,7 @@ export default function Button(props) {
               .button {
                 height: 50px;
                 border-radius: 2px;
-                background-color: rgba(245, 245, 245, 0.98);
+                background-color: #000;
                 color: #757575;
                 z-index: 2;
                 position: absolute;

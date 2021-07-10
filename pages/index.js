@@ -13,11 +13,11 @@ export default function About() {
       </div>
 
       <div className="bio">
-        <Box text="Software Engineer & Designer" width={20} />
+        <Box text="Software Engineer & Product Designer" width={20} />
         <Box text="Keen in designing & building functional UIs" width={20} />
       </div>
 
-      <div className="link">
+      {/* <div className="link">
         <Link href="https://github.com/thecodesalim">
           <a>
             <motion.div
@@ -39,7 +39,7 @@ export default function About() {
             </motion.div>
           </a>
         </Link>
-      </div>
+      </div> */}
       {/* <Header /> */}
       <div className="open-viewer">
         <Button />
@@ -47,7 +47,7 @@ export default function About() {
       <style>
         {`
           .open-viewer{
-            grid-row: 1; 
+            grid-row: 4; 
           }
           .mainPart {
             display: flex;
@@ -77,7 +77,7 @@ export default function About() {
 
           .link {
             margin: 20px;
-            grid-row: 4;
+            grid-row: 1;
           }
 
           a {
